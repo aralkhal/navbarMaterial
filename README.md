@@ -1,27 +1,25 @@
-# NavbarMaterial
+# Instructions
+in order to use the Material
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+- we have to install the material 
+    npm install @angular/material
+    then add the style indiago to the styel.css to apply the styles.
 
-## Development server
+- in order to use the material icons
+    we have to add the link to the index file
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Additional Requirements
+-   Add Chart Tab to show all the created charts.
+-   When clicking on search/view button a tab should be opened with the order found.
+    -   double clikcing on the order will open a new page with order information.
+    -   If the order is not found an error message should be returned to the user.
+-   Add tiles in the dashboard:
+    -   Total Number of Orders.
+    -   Total Number of Active Orders.
+    -   Total Number of None Active Orders.
+-   Clicking on each tile should open a new page with the orders.
+-   Order tab: 
+    -   Order tab will show all the orders in desc order.
+    -   Adding Order button to add an order
+    
